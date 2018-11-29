@@ -47,6 +47,40 @@ public class IOFile {
         return content;
     }
 
+    public  void writeHuffmanCommpressedData(CommpressedData data) {
+        try {
+            FileOutputStream f = new FileOutputStream(new File(filePath));
+            ObjectOutputStream o = new ObjectOutputStream(f);
+            o.writeObject(data);
+            o.close();
+            f.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found");
+        } catch (IOException e) {
+            System.out.println("Error initializing stream");
+        }
+    }
+    public  CommpressedData readHuffmanCommpressedData() {
+        CommpressedData commpressedData = null;
+        try {
+            FileInputStream fi = new FileInputStream(new File(filePath));
+            ObjectInputStream oi = new ObjectInputStream(fi);
 
+            // Read objects
+            commpressedData = (CommpressedData) oi.readObject();
+            oi.close();
+            fi.close();
 
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found");
+        } catch (IOException e) {
+            System.out.println("Error initializing stream");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return commpressedData;
+    }
 }
+
+
+
