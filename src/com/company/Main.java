@@ -3,6 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
+        Front f = new Front();
+
         IOFile text = new IOFile("text.txt");
         Huffman encoding = new Huffman(text.readFile());
 

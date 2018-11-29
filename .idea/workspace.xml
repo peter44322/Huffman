@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79ad3540-7a20-4c14-8e7f-1cb052f1c110" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/CommpressedData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Huffman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/HuffmanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compressedData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Front.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Huffman/com/company/IOFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Huffman/com/company/IOFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Huffman/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Huffman/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/IOFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/IOFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +21,22 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="70" lean-forward="true" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+            <state relative-caret-position="272">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Front.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Front.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#1601#1602#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/compressedData.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
+              <caret column="71" selection-start-column="71" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -66,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/IOFile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -74,17 +83,17 @@
       <file leaf-file-name="CommpressedData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/CommpressedData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="102">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -121,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/com/company/CommpressedData.java" />
         <option value="$PROJECT_DIR$/src/com/company/Node.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Front.java" />
       </list>
     </option>
   </component>
@@ -215,7 +225,7 @@
       <workItem from="1542924861461" duration="3951000" />
       <workItem from="1543000075955" duration="8026000" />
       <workItem from="1543449233420" duration="8626000" />
-      <workItem from="1543459179913" duration="852000" />
+      <workItem from="1543459179913" duration="5147000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <created>1542979940909</created>
@@ -231,11 +241,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542980676495</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Just Refactor">
+      <created>1543460072661</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543460072661</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22921000" />
+    <option name="totallyTimeSpent" value="27216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -280,7 +297,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all" />
     <MESSAGE value="git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
+    <MESSAGE value="Just Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just Refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -468,24 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/CommpressedData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/IOFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compressedData.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -499,17 +503,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="70" lean-forward="true" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compressedData.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/CommpressedData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Front.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
